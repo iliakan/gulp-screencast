@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%
+}
+
+.header {
+  background: url(/img/cat.svg) left center no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+  font-size: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+

@@ -1,0 +1,12 @@
+.header {
+  background: url("/img/cat.svg") left center no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+  font-size: 40px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
