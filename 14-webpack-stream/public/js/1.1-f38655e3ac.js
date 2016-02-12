@@ -1,0 +1,1 @@
+webpackJsonp([1],{3:function(c,n){"use strict";alert("Dynamic works!")}});

@@ -1,0 +1,24 @@
+.menu
+
+  margin 10px
+  font-size 20px
+
+  &__list
+    padding 0
+    margin 0 0 0 40px
+    display none
+
+  &__title-icon
+    background url(closed.svg)
+    width 16px
+    height 16px
+    margin-right 4px
+
+  &_open &__title-icon
+    background url(open.svg)
+
+  &_open &__list
+      display block
+
+
+
