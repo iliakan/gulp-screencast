@@ -10,7 +10,7 @@ module.exports = function(options) {
       server: options.src
     });
 
-    browserSync.watch(`${options.src}/**/*.*`).on('change', browserSync.reload);
+    browserSync.watch('${options.src}/**/*.*').on('change', browserSync.reload);
   };
 
 };
